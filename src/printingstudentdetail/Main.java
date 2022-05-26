@@ -30,6 +30,7 @@ public class Main {
             System.out.println("Learn Github operators");
             //commit and save
             //pull operations 
+            // fetch and merge operations 
             
         }
         
