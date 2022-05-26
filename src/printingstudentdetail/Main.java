@@ -27,6 +27,8 @@ public class Main {
         
         for(int i=0;i<list.length;i++){
             System.out.println(list[i].getName()+" "+list[i].getAge());
+            System.out.println("Learn Github operators");
+            
         }
         
     }
