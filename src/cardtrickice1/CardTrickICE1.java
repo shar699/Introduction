@@ -28,6 +28,11 @@ public class CardTrickICE1 {
         //step 2:take input 
         
         //step 3: match with array 
+        Card luckyCard= new Card();
+        luckyCard.setValue(3);
+        luckyCard.setSuits("Spade");
+        // naman sharma 
+        // student id:991666397
     }
     
 }
