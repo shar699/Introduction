@@ -26,8 +26,24 @@ public class CardTrickICE1 {
             c1.setSuits("hearts");//random method suit 
         }
         //step 2:take input 
+        Card c2= new Card();
+        String suit;
+        int value;
+        Scanner ob=new Scanner(System.in);
+        System.out.println("Enter the card number of your choice");
+        value=ob.nextInt();
+        c2.setValue(value);
+        System.out.println(c2.getValue());
         
-        //step 3: match with array 
+        //step 3: match with array
+        for(int j=0;j<magicHand.length;j++){
+            if(c1.getValue()==c2.getValue()){
+                System.out.println("ok");
+            }
+            else 
+                System.out.println("no");
+        
+     
         Card luckyCard= new Card();
         luckyCard.setValue(3);
         luckyCard.setSuits("Spade");
